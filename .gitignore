@@ -1,0 +1,8 @@
+BUILD/
+mbed-os/
+mbed_settings.*
+.vscode/
+.mbed
+
+# Using symbolic link to mbed-os lib which is seen as a file
+mbed-os
