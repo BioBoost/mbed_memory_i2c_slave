@@ -6,7 +6,7 @@ To connect to the device you will need to attach an I2C master device to pin 27 
 
 To get some console output from the slave device you can use a terminal program such as Putty to connect to the serial interface over USB at a speed of 115200 baud.
 
-The slave device also has an alive LED which will blink periodically (500ms interval) as long as the device is operational and responsive.
+The slave device also has an alive LED which will blink periodically (about 500ms interval) as long as the device is operational and responsive.
 
 The I2C bus operates at 400kHz and the slave device address is 0x28 (8-bit).
 
